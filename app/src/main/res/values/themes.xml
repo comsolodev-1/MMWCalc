@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base app theme -->
+    <style name="Theme.MMWCalc" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Splash screen theme -->
+    <style name="Theme.MMWCalc.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#1A1A2E</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <item name="windowSplashScreenIconBackgroundColor">#1A1A2E</item>
+        <item name="postSplashScreenTheme">@style/Theme.MMWCalc</item>
+    </style>
+</resources>
