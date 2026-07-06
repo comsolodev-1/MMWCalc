@@ -93,11 +93,15 @@ If MMWCalc helped you pass your MMW subject, consider buying me a coffee! ☕
 
 ## Contact
 
-- 📧 Email: callixasta@gmail.com
+- 📧 Email: com.solodev@gmail.com
 - 👥 Facebook: Reyny Mark
 - 📱 Phone: 09926617956
 
 For bug reports, inquiries, or custom app development.
+
+---
+
+End of July or Early August, I will release the ai powered web app version.
 
 ---
 
