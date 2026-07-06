@@ -169,7 +169,7 @@ fun DonateModal(onDismiss: () -> Unit) {
 
             Spacer(Modifier.height(4.dp))
 
-            Text("Every peso helps keep this app updated and free! 🙏",
+            Text("I will soon release an ai powered web app version. Every peso helps keep this app updated and free! 🙏",
                 style = MaterialTheme.typography.labelSmall,
                 color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.5f),
                 textAlign = TextAlign.Center)
@@ -215,10 +215,10 @@ fun ContactModal(onDismiss: () -> Unit) {
             ContactCard(
                 icon    = "📧",
                 label   = "Email",
-                value   = "callixasta@gmail.com",
+                value   = "com.solodev@gmail.com",
                 onClick = {
                     val intent = Intent(Intent.ACTION_SENDTO).apply {
-                        data = Uri.parse("mailto:callixasta@gmail.com")
+                        data = Uri.parse("mailto:com.solodev@gmail.com")
                         putExtra(Intent.EXTRA_SUBJECT, "MMWCalc — Inquiry")
                     }
                     context.startActivity(Intent.createChooser(intent, "Send Email"))
