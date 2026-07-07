@@ -93,7 +93,7 @@ fun CopyrightModal(onDismiss: () -> Unit) {
                 title = "Reporting Violations",
                 body  = "If you believe your intellectual property rights have been " +
                         "violated, or if you encounter an unauthorized copy of this app, " +
-                        "please contact the developer immediately at callixasta@gmail.com"
+                        "please contact the developer immediately at com.solodev@gmail.com"
             )
 
             Spacer(Modifier.height(8.dp))
